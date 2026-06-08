@@ -204,7 +204,7 @@ export default function UsersPage() {
             onChange={(e) =>
               setCreateFormData({ ...createFormData, name: e.target.value })
             }
-            className="w-full p-2 border border-gray-300 rounded text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-2 border border-gray-300 rounded text-gray-900 placeholder-gray-500 focus:outline-hidden focus:ring-2 focus:ring-blue-500"
           />
           <input
             type="email"
@@ -213,7 +213,7 @@ export default function UsersPage() {
             onChange={(e) =>
               setCreateFormData({ ...createFormData, email: e.target.value })
             }
-            className="w-full p-2 border border-gray-300 rounded text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-2 border border-gray-300 rounded text-gray-900 placeholder-gray-500 focus:outline-hidden focus:ring-2 focus:ring-blue-500"
           />
           <input
             type="text"
@@ -222,7 +222,7 @@ export default function UsersPage() {
             onChange={(e) =>
               setCreateFormData({ ...createFormData, phone: e.target.value })
             }
-            className="w-full p-2 border border-gray-300 rounded text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-2 border border-gray-300 rounded text-gray-900 placeholder-gray-500 focus:outline-hidden focus:ring-2 focus:ring-blue-500"
           />
           <input
             type="text"
@@ -231,7 +231,7 @@ export default function UsersPage() {
             onChange={(e) =>
               setCreateFormData({ ...createFormData, address: e.target.value })
             }
-            className="w-full p-2 border border-gray-300 rounded text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-2 border border-gray-300 rounded text-gray-900 placeholder-gray-500 focus:outline-hidden focus:ring-2 focus:ring-blue-500"
           />
           <button
             onClick={handleCreateUser}
@@ -269,7 +269,7 @@ export default function UsersPage() {
               onChange={(e) =>
                 setUpdateFormData({ ...updateFormData, name: e.target.value })
               }
-              className="w-full p-2 border border-gray-300 rounded text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full p-2 border border-gray-300 rounded text-gray-900 placeholder-gray-500 focus:outline-hidden focus:ring-2 focus:ring-blue-500"
             />
             <input
               type="email"
@@ -278,7 +278,7 @@ export default function UsersPage() {
               onChange={(e) =>
                 setUpdateFormData({ ...updateFormData, email: e.target.value })
               }
-              className="w-full p-2 border border-gray-300 rounded text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full p-2 border border-gray-300 rounded text-gray-900 placeholder-gray-500 focus:outline-hidden focus:ring-2 focus:ring-blue-500"
             />
             <button
               onClick={handleUpdateUser}
